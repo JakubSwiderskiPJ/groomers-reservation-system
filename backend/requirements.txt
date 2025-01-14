@@ -1,0 +1,23 @@
+asgiref==3.7.2        # For Django's ASGI support
+Django
+djangorestframework==3.14.0  # REST API development
+psycopg2-binary  # PostgreSQL database adapter
+
+# Optional packages for additional features
+django-cors-headers==4.0.0  # For handling CORS in API requests
+django-environ==0.10.0  # For managing environment variables
+Pillow==10.0.0         # For handling image uploads
+django-filter==23.2    # Filtering support in DRF
+drf-yasg==1.21.5       # Swagger/OpenAPI for API documentation
+
+# Optional for authentication and security
+django-allauth==0.57.0 # Social and email authentication
+bcrypt==4.0.1         # Password hashing support
+
+# Frontend integration (if needed)
+#whitenoise==6.5.0     # For serving static files in production
+
+# Celery for task queue (optional)
+#celery==5.3.1         # Asynchronous task queue
+#django-celery-beat==2.5.0  # Celery periodic tasks
+redis==5.0.0          # Redis backend for Celery
